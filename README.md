@@ -12,6 +12,18 @@ This github is an attempt at preserving and archiving developmental tools for th
 
 _DEV TEAM:_ **Ravenis**, _Vice Dice, Striberium, and AnarchCassius_
 
+**PROVIDED:** _Their dialog editor (of 12/14/2017), mighty thanks for the contribution!_
+
+## Included Files
+
+**— Fallout Online 2238 Source**
+
+_CLIENT + MAPPER, SERVER + RELATED TOOLS, DOCUMENTATION_
+
+**— Fallout Online Improved SDK**
+
+_rotator's fosdk, rotator's tools, witchlord - issue checker utility, and Fallout Online Updater._
+
 ## Disclaimer
 
 **Please, DO NOT MODIFY OR CLAIM ANY OF THESE WORKS AS YOUR OWN!!**
