@@ -18,7 +18,7 @@ _DEV TEAM:_ **Ravenis**, _Vice Dice, Striberium, and AnarchCassius_
 
 **— Fallout Online 2238 Source**
 
-_CLIENT + MAPPER, SERVER + RELATED TOOLS, DOCUMENTATION_
+_client + mapper, server + related tools, documentation_
 
 **— Fallout Online Improved SDK**
 
