@@ -1,2 +1,10 @@
-# fodev-tools
-My collection of Fallout Online Development tools from many communities.
+# Fallout Online Developmental Tools
+
+![alt text](https://github.com/2cwldys/fodev-tools/blob/master/images/oie_bcDSnXA56atf.gif)
+
+This is my collection of Fallout Online Development Tools provided by many communities, and resources taken from dead or no longer active communities.
+
+## Provided Communities
+
+****— Fallout Online Forever
+DEV TEAM: Ravenis, Vice Dice, Striberium, and AnarchCassius
