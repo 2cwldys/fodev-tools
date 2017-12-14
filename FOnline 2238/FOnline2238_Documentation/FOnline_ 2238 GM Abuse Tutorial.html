@@ -1,0 +1,1029 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="https://fodev.net/forum/Themes/blackened/css/index.css?fin20" />
+	<link rel="stylesheet" type="text/css" href="https://fodev.net/forum/Themes/default/css/webkit.css" />
+	<script type="text/javascript" src="https://fodev.net/forum/Themes/default/scripts/script.js?fin20"></script>
+	<script type="text/javascript" src="https://fodev.net/forum/Themes/blackened/scripts/theme.js?fin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://fodev.net/forum/Themes/blackened";
+		var smf_default_theme_url = "https://fodev.net/forum/Themes/default";
+		var smf_images_url = "https://fodev.net/forum/Themes/blackened/images";
+		var smf_scripturl = "https://fodev.net/forum/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="[2238] FOnline: 2238 GM Abuse Tutorial" />
+	<meta name="keywords" content="FOnline, development, SDK, games" />
+	<link rel="icon" type="image/png" href="http://fodev.net/favicon.png" /> 
+	<title>[2238] FOnline: 2238 GM Abuse Tutorial</title>
+	<link rel="canonical" href="https://fodev.net/forum/index.php/topic,29382.0.html" />
+	<link rel="help" href="https://fodev.net/forum/index.php?action=help" />
+	<link rel="search" href="https://fodev.net/forum/index.php?action=search" />
+	<link rel="contents" href="https://fodev.net/forum/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="fodev.net - RSS" href="https://fodev.net/forum/index.php?type=rss;action=.xml" />
+	<link rel="prev" href="https://fodev.net/forum/index.php/topic,29382.0/prev_next,prev.html" />
+	<link rel="next" href="https://fodev.net/forum/index.php/topic,29382.0/prev_next,next.html" />
+	<link rel="index" href="https://fodev.net/forum/index.php/board,50.0.html" />
+		<script type="text/javascript" src="https://fodev.net/forum/Themes/default/scripts/captcha.js"></script>
+</head>
+<body>
+	<div id="bar">
+	        <div class="wrapper">
+			
+		<div id="navigation">
+			<ul>
+				<li id="button_forum">
+					<a class="firstlevel" href="http://fodev.net">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_home">
+					<a class="active firstlevel" href="https://fodev.net/forum/index.php">
+						<span class="firstlevel">Forum</span>
+					</a>
+				</li>
+				<li id="button_help">
+					<a class="firstlevel" href="https://fodev.net/forum/index.php?action=help">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_login">
+					<a class="firstlevel" href="https://fodev.net/forum/index.php?action=login">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register">
+					<a class="firstlevel" href="https://fodev.net/forum/index.php?action=register">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	 <div id="header">
+	        <div class="wrapper">
+
+			<div class="time">
+					<span>December 14, 2017, 11:37:43 pm</span>
+				</div>
+				<div class="search">
+					<form id="search_form" style="margin: 0;" action="https://fodev.net/forum/index.php?action=search2" method="post" accept-charset="UTF-8">
+						<input class="inputbox" type="text" name="search" value="Search" onfocus="this.value = '';" onblur="if(this.value=='') this.value='Search';" />
+						<input type="hidden" name="advanced" value="0" />
+							<input type="hidden" name="topic" value="29382" />
+					</form>
+				</div>
+			
+			<div id="logo">
+				<!-- <a href="https://fodev.net/forum/index.php" title=""></a> -->
+				<a href="http://fodev.net" title=""></a>
+			</div>
+		</div>
+	</div>
+	<div id="main_b">
+		<div class="wrapper">
+			<!-- <div id="tool">
+                               <div class="user">
+							<script type="text/javascript" src="https://fodev.net/forum/Themes/default/scripts/sha1.js"></script>
+							<form id="guest_form" action="https://fodev.net/forum/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '09604c5ea323e8558d7c635ef85f3f2e');">
+								<div class="info">Welcome, <strong>Guest</strong>. Please <a href="https://fodev.net/forum/index.php?action=login">login</a> or <a href="https://fodev.net/forum/index.php?action=register">register</a>.<br />Did you miss your <a href="https://fodev.net/forum/index.php?action=activate">activation email</a>?</div>
+								<input type="hidden" name="hash_passwrd" value="" /><input type="hidden" name="b4081be903cb" value="09604c5ea323e8558d7c635ef85f3f2e" />
+							</form>
+			        </div>
+               <div class="news">
+		    <p>Games are meant to be created, not played.</p>
+               </div>
+			</div> -->
+			<div id="main_content">
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="https://fodev.net/forum/index.php"><span>fodev.net</span></a> &#187;
+			</li>
+			<li>
+				<a href="https://fodev.net/forum/index.php#c9"><span>FOnline Development</span></a> &#187;
+			</li>
+			<li>
+				<a href="https://fodev.net/forum/index.php/board,50.0.html"><span>Questions and Answers</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="https://fodev.net/forum/index.php/topic,29382.0.html"><span>[2238] FOnline: 2238 GM Abuse Tutorial</span></a>
+			</li>
+		</ul>
+	</div>
+			<a id="top"></a>
+			<a id="msg258182"></a>
+			<div class="pagesection">
+				<div class="nextlinks"><a href="https://fodev.net/forum/index.php/topic,29382.0/prev_next,prev.html#new">&laquo; previous</a> <a href="https://fodev.net/forum/index.php/topic,29382.0/prev_next,next.html#new">next &raquo;</a></div>
+		<div class="buttonlist floatright">
+			<ul>
+				<li><a class="button_strip_print" href="https://fodev.net/forum/index.php?action=printpage;topic=29382.0" rel="new_win nofollow"><span class="last">Print</span></a></li>
+			</ul>
+		</div>
+				<div class="pagelinks floatleft">Pages: [<strong>1</strong>] <a class="navPages" href="https://fodev.net/forum/index.php/topic,29382.15.html">2</a> <a class="navPages" href="https://fodev.net/forum/index.php/topic,29382.30.html">3</a> <a class="navPages" href="https://fodev.net/forum/index.php/topic,29382.45.html">4</a> </div>
+			</div>
+			<div id="forumposts">
+				<div class="cat_bar">
+					<h3 class="catbg">
+						<img src="https://fodev.net/forum/Themes/blackened/images/topic/veryhot_post.gif" align="bottom" alt="" />
+						<span id="author">Author</span>
+						Topic: [2238] FOnline: 2238 GM Abuse Tutorial &nbsp;(Read 36404 times)
+					</h3>
+				</div>
+				<form action="https://fodev.net/forum/index.php?action=quickmod2;topic=29382.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('09604c5ea323e8558d7c635ef85f3f2e', 'b4081be903cb') : false">
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=28" title="View the profile of JovankaB">JovankaB</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258182_extra_info">
+								<li class="membergroup">Rotator</li>
+								<li class="title">JovankaB</li>
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=28">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9320;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258182">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258182.html#msg258182" rel="nofollow">[2238] FOnline: 2238 GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong> on:</strong> July 01, 2013, 02:24:39 pm &#187;</div>
+									<div id="msg_258182_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258182">This thread is made to answer some basic questions about administrating/game mastering a FOnline: 2238 server from inside the game (commonly known as abusing). It&#039;s assumed you already know hardcoded FOnline SDK commands and the basics about FOnline server.<br /><br /><span style="font-size: 8pt;" class="bbc_size">Note: in the following posts the &quot;admin&quot; term will usually mean a person with any access level higher than player. A term &quot;access level&quot; will be used whenever there will be a need to make a clear distinction between different access levels of admins (tester, moder or admin).</span><br /><br />Let&#039;s get started!<br /><br /><span style="font-size: 17pt;" class="bbc_size">Configuring admin access: GetAccess.cfg</span><br /><br />Before your team can start to abuse the server you have to define access settings. To do this, create a file GetAccess.cfg inside the FOnline: 2238 <strong>Server/config/</strong> subfolder. The file should contain a list of all admins, each with own unique password and an appropriate access level. A small example how such setting for a single admin should look like inside the file:<br /><br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">[AdminName]<br />Access=admin<br />Password=myuniquepassword</code><br />There are three possible access levels (from the lowest to the highest): tester, moder, admin.<br /><br />It is important for passwords to be unique for every admin. Although not necessary, it is advised for AdminName to be the same as the name of the character account the admin wants to use for administrative / game mastering purposes. If the character account can&#039;t be created right away, it is possible to prevent registration of a character with AdminName name by adding a line <strong>Reserved=true</strong>. It can be useful for example if you wipe a server and not all GMs are around to make an account right away. Later you can remove the blockade with command <tt class="bbc_tt">`accesslist allowregistration <em>AdminName</em></tt> or simply by editing GetAccess.cfg file (however this requires server restart).<br /><br /><span style="font-size: 8pt;" class="bbc_size">Note: The Ids of all character accounts the admin uses with ~getaccess are written automatically in GetAccess.cfg. This way you can check if someone isn&#039;t using admin access on characters they aren&#039;t supposed to.</span><br /><br /><span style="font-size: 14pt;" class="bbc_size">GodOfTheRealm</span><br /><br />There is a special admin mode scripted in FOnline: 2238 - GodOfTheRealm. Characters with this mode will be invisible for everyone else (even other people with GodOfTheRealm) and have stronger protection against being abused by other admins. This mode is given by editing return value of <tt class="bbc_tt">bool GodOfTheRealm</tt> function in the <span class="bbc_u">cheats.fos</span> module. After it&#039;s done, the admin can run <tt class="bbc_tt">god</tt> function from the <span class="bbc_u">cheats.fos</span> module to become GodOfTheRealm. To go back to normal mode the admin can run <tt class="bbc_tt">mortal</tt> function.<br /><br /><span style="font-size: 14pt;" class="bbc_size">AdminLook</span><br /><br />There is an <tt class="bbc_tt">adminlook</tt> function in <span class="bbc_u">cheats.fos</span> module which can be run by people with admin access level. The function grants perfect sneaking (being able to sneak from everyone except admins) and perfect vision (seeing everyone in map except GodOfTheRealm characters). It can be also used on other characters if you know a secret number passed as the second argument of the function - use it to give adminlook to people with tester and moder access levels. Before you start your server you should change this number.<br /><br /><span style="font-size: 14pt;" class="bbc_size">Getting Access</span><br /><br />Getting tester/moder/admin access level works the same way as in FOnline SDK - use <tt class="bbc_tt">~getaccess (client | tester | moder | admin) <em>password</em></tt> command. The only difference is, the password is defined in GetAccess.cfg file instead of the server config file. After you type the right password you are ready to use Game Master Tools (if you set it up in the client, see the post below) and server commands!<br /></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258182">
+								&#171; <em>Last Edit: July 03, 2013, 12:35:19 pm by b__B</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258182_signature">Everything is clear and well written.</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258184"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=6" title="View the profile of Wipe">Wipe</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258184_extra_info">
+								<li class="membergroup">Rotator</li>
+								<li class="title">Random is god</li>
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=6">
+										<img class="avatar" src="https://rotators.fodev.net/wipe/avatar.png" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258184">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258184.html#msg258184" rel="nofollow">[2238] FOnline: 2238 GM Abuse Tutorial Part 2</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #1 on:</strong> July 01, 2013, 03:10:31 pm &#187;</div>
+									<div id="msg_258184_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258184"><span style="font-size: 17pt;" class="bbc_size">Game Master Tools</span><br /><br />Game Master Tools (GMT) is a set of scripted tools available for Game Masters, which allow to do various tasks in more efficient manner. To enable GMT add following lines to FOnline2238.cfg:<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">[GMT]<br />Enabled=1<br /></code><br />...and (re)start client. After changing access level to Tester or higher, on-screen display (OSD) should appear in top left corner of the screen minimal set of informations. After enabling all possible mini-features, OSD shows detailed information about current location, map and items/critters when you hover mouse cursor over them.<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">[GMT]&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />Enabled=1<br />Menu=1<br />Possess=1<br />OSDInfo=Location,Map,Critter,Item,Mouse,Hex<br />OSDInfoLocation=Maps,Position,Type,Extra<br />OSDInfoMap=Size,Faction,Owner,Size,Hex,Extra<br />OSDInfoCritter=Picture,Extra<br />OSDInfoItem=Extra<br />Draw=1<br />ItemInfo=Extra<br />CritterInfo=Extra<br /></code><br /><hr />Next thing which may be interesting, is customizable menu allowing to execute server commands. It is fully configurable at client side, allowing your Game Masters to change it to their needs.<br />Traditional menu config, used in previous system, with famous <a href="http://fodev.net/forum/index.php/topic,28914.msg250780.html#msg250780" class="bbc_link" target="_blank"><em>Teleport</em> next to <em>Airstrike</em></a>:<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">;;<br />;;Standard devmenu<br />;;<br /><br />ONPLAYER,ONNPC;Possess;internal possess<br />ONPLAYER,ONNPC;Trade;runscript_unsafe dev_menu@unsafe_Trade $[Critter.Id] 0 0<br />ONITEM,ISCONTAINER;Browse items;runscript_unsafe dev_menu@unsafe_Trade 0 $[Item.Id] 0<br />ONPLAYER,ONNPC,ISALIVE;Kill;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0<br />ONPLAYER,ONNPC,ISKNOCK;Kill;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0<br />ONCHOSEN,ONPLAYER,ONNPC,ISDEAD;Revive;runscript_unsafe dev_menu@unsafe_KillCritter $[Critter.Id] 0 0<br />ONNPC;Remove critter;runscript_unsafe dev_menu@unsafe_RemoveCritter $[Critter.Id] 0 0<br />ONITEM;Remove item;runscript_unsafe dev_menu@unsafe_RemoveItem $[Item.Id] 0 0<br />ONITEM,ONGROUND;Teleport;runscript_unsafe dev_menu@unsafe_Teleport 0 $[HexX] $[HexY]<br />ONGROUND,NOHIDE;Airstrike;runscript dev_menu@Airstrike 0 $[HexX] $[HexY]<br />ONITEM,ISPOSSESS;Pick item;runscript_unsafe dev_menu@unsafe_PickItem $[Possessed.Id] $[Item.Id] 0<br />ONPLAYER,ONNPC,ISPOSSESS;Attack;runscript_unsafe dev_menu@unsafe_Attack $[Possessed.Id] $[Critter.Id] 0<br />ONGROUND,ISPOSSESS;Move to;runscript_unsafe dev_menu@unsafe_MoveTo $[Possessed.Id] $[HexX] $[HexY]<br />ISPOSSESS;Stop;runscript_unsafe dev_menu@unsafe_Stop $[Possessed.Id] 0 0<br />ONCHOSEN,ONPLAYER,ONNPC,ISKNOCK;Wake;runscript_unsafe dev_menu@unsafe_NeutralizeCritter $[Critter.Id] 0 0<br />ONCHOSEN,ONPLAYER,ONNPC,ISNTKNOCK;Neutralize;runscript_unsafe dev_menu@unsafe_NeutralizeCritter $[Critter.Id] 0 0<br /></code>Made of three sections, each separated with &quot;;&quot; character, where first is set of flags defining when given button should show up, second is name, and third is command to execute. As it was <a href="http://fodev.net/forum/index.php/topic,6127.msg53474.html#msg53474" class="bbc_link" target="_blank">revealed</a> some time ago, it&#039;s possible to add submenu to specific buttons. To do so, replace command part with &quot;internal menu&quot;. All next lines with single SUBMENU flag will be part of button submenu, anything else will become new top-level button.<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">ONPLAYER;Be Friendly;internal menu<br />SUBMENU;Hug;command slap -p $[Player.Id]<br />SUBMENU;Gift;command airstrike -p $[Player.Id]<br /></code>As single menu may be not enough, it&#039;s possible to switch between them, for example you during the events/bugs-hunting/etc. Default menu, which is loaded after GMT initialization, need to be stored in file named <strong>GMTbuttons.txt</strong>. Also be noted, that all menu buttons relay on macro system (they are in fact one-line macros).<br /><br />To display GMT menu, use CTRL+Click.<br />To switch between menus, use ~gmtools menu load FILENAME.<br />To reload currently used menu (after file edit), use ~gmtools menu reload.<br /><br />See client_gmtools_menu.fos-&gt;CContextMenu::OnShow() for details about menu flags<br />See client_gmtools_macro.fos-&gt;GetVars() for details about menu $[variables]. Note that $[LastSpawned] group is parsed at server side (gmtools.fos-&gt;unsafe_question).<br /><br /><hr /><br />As communication between Game Masters online is important thing, and it may be hard to enforce one specific way of communication using external tools, GMT provides simple chat system to be used ingame. It&#039;s not meant to replace IRC/voice communication, but should be enough for some situation (like during events, or when you want to talk ingame with/as GodOfTheRealm); to use it, put &quot;@&quot; characted before message.<br />GMTchat is single feature which works for all authenticated characters, even without GMT enabled.<br /><br /><hr /><br />client_gmtools.fos<br />client_gmtools_menu.fos<br />client_gmtools_macro.fos<br />client_gmtools_chat.fos<br />gmtools_h.fos<br />gmtools.fos<br />gmtools_csc.fos<br /></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258184">
+								&#171; <em>Last Edit: July 03, 2013, 12:35:41 pm by b__B</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258184_signature"><div style="text-align: right;"><em>Games are meant to be created, not played...</em></div></div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258188"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=28" title="View the profile of JovankaB">JovankaB</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258188_extra_info">
+								<li class="membergroup">Rotator</li>
+								<li class="title">JovankaB</li>
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=28">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9320;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258188">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258188.html#msg258188" rel="nofollow">[2238] FOnline: 2238 GM Abuse Tutorial Part 3</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #2 on:</strong> July 01, 2013, 03:56:20 pm &#187;</div>
+									<div id="msg_258188_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258188"><span style="font-size: 17pt;" class="bbc_size">Basic Server Commands</span><br /><br />There is around 200 server commands and dozens of scripts in various modules. A complete description is outside of the scope of this tutorial. Below you will find the basic set of commands which should help you get started with administrative duties.<br /><br /><span style="font-size: 8pt;" class="bbc_size">Note: The parts of commands written with cursive are variables (not actual text to type but rather what kind of data should be typed there). The parts in brackets are optional. Elements mutually exclusive are in parentheses and separated with |.</span><br /><br />Before you start - some switches are used across many commands. The most common is [-p <em>player</em>] switch, which let&#039;s you choose target critter (player or NPC) - <em>player</em> can be either critter Id (it works for NPCs too) or player name. Usually when the switch is omitted and a command requires a target, the character using the command is the target. Similar switch [-n <em>npc</em>] let&#039;s you choose NPC by providing NPC Id (which is equal to critter Id - 5000000), which in many cases is easier to type.<br /><br /><span style="font-size: 14pt;" class="bbc_size">Getting Information</span><br /><br /><tt class="bbc_tt">`alts [-l <em>locationId</em>] [-o]</tt><br />Display IPs and characters suspected to be multilogs (sharing the same IP). -l option allows to limit the search to a specific location. By default offline characters are ignored, you can turn this behavior off with -o option.<br /><br /><tt class="bbc_tt">`gameinfo <em>infoType</em></tt><br />Scripted equivalent of hardcoded ~gameinfo. Only <em>infoType</em> == 1 is implemented.<br /><br /><tt class="bbc_tt">`listauthenticated</tt><br />Alias: <tt class="bbc_tt">`la</tt><br />Displays all authenticated characters present in the game (except those with GodOfTheRealm mode).<br /><br /><br /><span style="font-size: 14pt;" class="bbc_size">Moving Around</span><br /><br /><tt class="bbc_tt">`teleport <em>map</em> [<em>entire</em>] [(-p <em>player</em> | -n <em>npc</em>)] [-x <em>hexX</em> -y <em>hexY</em>]</tt><br />Alias: <tt class="bbc_tt">`tp</tt><br />Teleports a critter to a specific place. The <em>map</em> parameter is either map Id or map alias (for example &quot;nr&quot; for New Reno). Full list of map aliases can be found in <tt class="bbc_tt">SetAliases</tt> function in <span class="bbc_u">cheats.fos</span> module.<br /><br /><tt class="bbc_tt">`teleportteam <em>map</em> [<em>entire</em>] [(-p <em>player</em> | -n <em>npc</em>)] [-x <em>hexX</em> -y <em>hexY</em>]</tt><br />Works exactly like <tt class="bbc_tt">`teleport</tt>, except it teleports also players who tagged you and are near you.<br /><br /><tt class="bbc_tt">`goto [(-p <em>player</em> | -n <em>npc</em>)] [-s] [-f]</tt><br />Teleports to a critter. Use -s switch to be teleported in a safe distance from the critter. Use -f switch to force teleportation if the critter is on global map (by default teleporting to critters on global map is disabled).<br /><br /><tt class="bbc_tt">`toglobal [(-p <em>player</em> | -n <em>npc</em>)]</tt><br />Teleports a critter to global map.<br /><br /><tt class="bbc_tt">`summon (-p <em>player</em> | -n <em>npc</em>)</tt><br />Summons a critter to you.<br /><br /><tt class="bbc_tt">`dismiss (-p <em>player</em> | -n <em>npc</em>)</tt><br />Teleports the critter back where it was.<br /><br /><span style="font-size: 14pt;" class="bbc_size">Items</span><br /><br /><tt class="bbc_tt">`spawnitem <em>pid</em> <em>count</em> [-x <em>hexX</em> -y <em>hexY</em>] [-r <em>radius</em>] [-a <em>amount</em>] [-script <em>module</em>@<em>function</em>] [-legit]</tt><br />Spawns item on ground. Amount is amount of items in a single stack, count is number of stacks. Use -legit flag (admin access only) to spawn item which can be used in normal (legit) locations. Check cheats.fos, there is more options.<br /><br /><tt class="bbc_tt">`give <em>pid</em> <em>count</em> [(-p <em>player</em> | -n <em>npc</em>)] [-script <em>module</em>@<em>function</em>] [-legit]</tt><br />Gives a critter an item. Check ITEMPID.H for the list of pids. Use -legit flag to spawn legit item (requires admin access level). Non-legit items can be used only in non-legit locations (locations spawned with a command without -legit option).<br /><br /><tt class="bbc_tt">`pickitems</tt><br />Picks all items from the hex.<br /><br /><tt class="bbc_tt">`dropitems</tt><br />Drops all items in inventory slot.<br /><br /><tt class="bbc_tt">`clearinventory</tt><br />Deletes all items inside inventory slot.<br /><br /><span style="font-size: 14pt;" class="bbc_size">Critters</span><br /><br /><tt class="bbc_tt">`addnpc <em>protoId</em> [-d <em>dialogId</em>] [-s <em>module</em>@<em>script</em>] [-l <em>level</em>] [-dir <em>direction</em>] [-b <em>bagId</em>]</tt><br />Creates an NPC. The options should be quite self explanatory (there is a lot more, check cheats.fos). There are similar commands <tt class="bbc_tt">`addmob</tt> and <tt class="bbc_tt">`addfollower</tt>.<br /><br /><tt class="bbc_tt">`param 0 <em>param</em> [<em>value</em>]</tt><br />A command allowing to view and set your character params. Full list of params can be checked in _defines.fos.<br /><br /><tt class="bbc_tt">`disguise <em>crType</em> [(-p <em>player</em> | -n <em>npc</em>)]</tt><br />Popular command to change &quot;skin&quot; (critter type) of a player or an NPC. Critter types are defined in CritterTypes.cfg file.<br /><br /><tt class="bbc_tt">`ces</tt><br />Clears enemy stack of all critters on the map. If AI hits the fan, `ces might help.<br /><br /><tt class="bbc_tt">`kill (players | npcs | all | -p <em>player</em> | -n <em>npc</em>)</tt><br />Kills every player / NPC / critter in your sight or just a critter of your choice.<br /><br /><tt class="bbc_tt">`reviveall</tt><br />Something you want to type quickly after you missclick airstrike button.<br /><br /><tt class="bbc_tt">`resetreputations [(-p <em>player</em> | -n <em>npc</em>)]</tt><br />Resets all reputations of a critter.<br /><br /><tt class="bbc_tt">`dropdrugs [(-p <em>player</em> | -n <em>npc</em>)]</tt><br />Removes all addictions from a critter.<br /><br /><span style="font-size: 14pt;" class="bbc_size">Locations</span><br /><br /><tt class="bbc_tt">`createlocation <em>pid</em> [-legit]</tt><br />Creates a location with given location pid at your global map coordinates. Use -legit flag to create a legit location (in legit locations non-legit items won&#039;t work for players).<br /><br /><tt class="bbc_tt">`deletelocation</tt><br />Deletes location you are in.<br /><br /><tt class="bbc_tt">`disablepvp</tt><br /><tt class="bbc_tt">`enablepvp</tt><br />Disables / enables PvP in a map.<br /><br /><tt class="bbc_tt">`disablegrids</tt><br /><tt class="bbc_tt">`enablegrids</tt><br />Disables / enables exit grids in a map.<br /><br /><span style="font-size: 14pt;" class="bbc_size">Fun</span><br /><br /><tt class="bbc_tt">`slap (-p <em>player</em> | -n <em>npc</em>) [-a <em>actionPoints</em>]</tt><br />Slaps a player. Optionally you can decide how many action points you want to take - be careful, large values can keep player character on the ground for hours.<br /><br /><tt class="bbc_tt">`massslap [-a <em>actionPoints</em>] [-r <em>radius</em>]</tt><br />What is better than slapping a player? Slapping everyone in a map! Additionaly you can define how far the critters will fly (in a random direction). Warning: with large radius values players and especially NPCs (because they won&#039;t complain about it) might end up stuck in some unreachable places.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258188">
+								&#171; <em>Last Edit: July 03, 2013, 12:36:07 pm by b__B</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258188_signature">Everything is clear and well written.</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258191"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=28" title="View the profile of JovankaB">JovankaB</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258191_extra_info">
+								<li class="membergroup">Rotator</li>
+								<li class="title">JovankaB</li>
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=28">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9320;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258191">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258191.html#msg258191" rel="nofollow">[2238] FOnline: 2238 GM Abuse Tutorial Part 4</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #3 on:</strong> July 01, 2013, 06:48:58 pm &#187;</div>
+									<div id="msg_258191_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258191"><span style="font-size: 17pt;" class="bbc_size">Special NPCs</span><br /><br />There is a few NPCs (or rather dialogs) of special purpose which you might find useful at some point (for example to make events or for testing).<br /><br /><tt class="bbc_tt">`addnpc 170 -d 10799 -l 9999</tt><br />Low tech outfitter.<br /><br /><tt class="bbc_tt">`addnpc 486 -d 10809 -l 9999</tt><br />High tech outfitter.<br /><br /><tt class="bbc_tt">`addnpc 278 -d 10802 -l 9999</tt><br />Altruist (gives free XP and money).<br /><br /><tt class="bbc_tt">`addnpc 251 -s vaul_guard@critter_init -l 9999 -r 1 -b 191</tt><br />Event Enclave guard with sniper rifle.<br /><br /><tt class="bbc_tt">`addnpc 454 -d 2530 -s npc_shouter@critter_init -role 5 -a 238 -b 1 -t 9000</tt><br />Hub Arena shouter. He shouts that a fighting event in the Hub Arena is taking place. Talking to him gives the option to teleport directly into the arena. (Was meant to be placed on every corner in the Hub when fight events are taking place).<br /><br /><br />Finally there is a special command to make a teleporter NPC:<br /><br /><tt class="bbc_tt">`teleporter -map <em>mapId</em> -tx <em>targetHexX</em> -ty <em>targetHexY</em> [-x <em>hexX</em>] [-y <em>hexY</em>] [-dir <em>direction</em>] [-it] </tt><br />Teleporter Goris. Will teleport players to a map at specified coordinates. Use -it flag to allow teleportation with items.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258191">
+								&#171; <em>Last Edit: July 03, 2013, 12:36:18 pm by b__B</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258191_signature">Everything is clear and well written.</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258196"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=28" title="View the profile of JovankaB">JovankaB</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258196_extra_info">
+								<li class="membergroup">Rotator</li>
+								<li class="title">JovankaB</li>
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=28">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9320;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258196">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258196.html#msg258196" rel="nofollow">[2238] FOnline: 2238 GM Abuse Tutorial Part 5</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #4 on:</strong> July 01, 2013, 07:38:07 pm &#187;</div>
+									<div id="msg_258196_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258196"><span style="font-size: 17pt;" class="bbc_size">Item/Location legitimacy system</span><br /><br />Every item and map in the game is either legit or not legit. All items and locations created by standard game features are considered legit.<br /><br />Items spawned with GM commands, are not legit, unless you use <tt class="bbc_tt">-legit</tt> switch in the commands. The switch can be used only with admin access level, in following commands:<br /><ul class="bbc_list"><li>createlocation</li><li>give</li><li>givekey</li><li>spawncar</li><li>spawnitem</li></ul>In case of items, the <tt class="bbc_tt">-legit</tt> switch should be used ONLY when you spawn an item which is supposed to be 100% legal part of the game, used by all players however they want. The same goes for locations.<br /><br /><span style="font-size: 14pt;" class="bbc_size">Legit item behavior</span><br /><br />Spawned legit items and locations behave like any other legit item and location in the game. <br /><br /><span style="font-size: 14pt;" class="bbc_size">Not legit item behavior</span><br /><br />Spawned not legit items can be used by authenticated staff (tester access and higher) anywhere without most restrictions . By non-authenticated players they can be used without restrictions only inside not legit locations. There is a small exception for stackable items. Even in not legit location, stackable not legit items can&#039;t be picked up or used if player holds a legit item of the same kind (to prevent merging not legit stacks into legit stacks).<br /><br />Not legit items can&#039;t be disassembled (not even in not legit locations).<br /><br />You should still take all possible precautions when spawning items (the system helps prevent the most common mistakes, but it&#039;s far from perfect and there are many loopholes in it).</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258196">
+								&#171; <em>Last Edit: July 03, 2013, 12:36:25 pm by b__B</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258196_signature">Everything is clear and well written.</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258230"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=28" title="View the profile of JovankaB">JovankaB</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258230_extra_info">
+								<li class="membergroup">Rotator</li>
+								<li class="title">JovankaB</li>
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=28">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9320;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258230">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258230.html#msg258230" rel="nofollow">Re: [2238] FOnline: 2238 GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #5 on:</strong> July 02, 2013, 09:00:36 pm &#187;</div>
+									<div id="msg_258230_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258230">The tutorial will stay open, if you have some questions about gm commands and similar topics, ask here.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258230">
+								&#171; <em>Last Edit: July 03, 2013, 12:37:15 pm by b__B</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258230_signature">Everything is clear and well written.</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258242"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=3338" title="View the profile of raynor009">raynor009</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258242_extra_info">
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=3338">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9284;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="blurb">The Bad</li>
+								<li class="profile">
+									<ul>
+										<li><a href="http://dayzromania.eu/raynor009_blog/blog1.php" title="" target="_blank" class="new_win"><img src="https://fodev.net/forum/Themes/blackened/images/www_sm.gif" alt="" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258242">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258242.html#msg258242" rel="nofollow">Re: [FOnline: 2238] GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #6 on:</strong> July 03, 2013, 12:20:37 am &#187;</div>
+									<div id="msg_258242_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258242">Everything works fine except the OSD menu/commands. Nothing happens when I change access.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258242">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258243"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=87" title="View the profile of Wire">Wire</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258243_extra_info">
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=87">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9378;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+										<li><a href="http://www.youtube.com/user/VguessWho#p/f/11/Je8MXiwmNIk" title="I See Dead People" target="_blank" class="new_win"><img src="https://fodev.net/forum/Themes/blackened/images/www_sm.gif" alt="I See Dead People" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258243">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258243.html#msg258243" rel="nofollow">Re: [FOnline: 2238] GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #7 on:</strong> July 03, 2013, 12:42:15 am &#187;</div>
+									<div id="msg_258243_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258243"><div class="quoteheader"><div class="topslice_quote"><a href="https://fodev.net/forum/index.php/topic,29382.msg258242.html#msg258242">Quote from: raynor009 on July 03, 2013, 12:20:37 am</a></div></div><blockquote class="bbc_standard_quote">Everything works fine except the OSD menu/commands. Nothing happens when I change access.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>try <a href="https://dl.dropboxusercontent.com/u/68678026/FOnline2238.cfg" class="bbc_link" target="_blank">this one</a> (use save as)<br />You might&#039;ve left space in the end of the line.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258243">
+								&#171; <em>Last Edit: July 03, 2013, 12:48:33 am by Wire</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258243_signature"><div align="center"><em><strong>The sky above the port was the color of television, tuned to a dead channel.</strong><span style="font-size: 1pt;" class="bbc_size"><br /></span></em><div style="text-align: right;"><em>irc V_guessWho</em></div></div></div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258248"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=2467" title="View the profile of Spiritwind">Spiritwind</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258248_extra_info">
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=2467">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9231;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+										<li><a href="http://imagicraft.net" title="Imagicraft Gaming Community (President)" target="_blank" class="new_win"><img src="https://fodev.net/forum/Themes/blackened/images/www_sm.gif" alt="Imagicraft Gaming Community (President)" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258248">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258248.html#msg258248" rel="nofollow">Re: [FOnline: 2238] GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #8 on:</strong> July 03, 2013, 06:03:46 am &#187;</div>
+									<div id="msg_258248_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258248">Hmm, nothing seems to be working for me.&nbsp; As far as I can tell I followed the first set of directions to the T.&nbsp; <br /><br />~getaccess password<br /><br />Returns nothing.&nbsp; No commands work, GMT is not displaying.&nbsp; Any ideas?</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258248">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258249"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=28" title="View the profile of JovankaB">JovankaB</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258249_extra_info">
+								<li class="membergroup">Rotator</li>
+								<li class="title">JovankaB</li>
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=28">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9320;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258249">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258249.html#msg258249" rel="nofollow">Re: [2238] FOnline: 2238 GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #9 on:</strong> July 03, 2013, 06:08:46 am &#187;</div>
+									<div id="msg_258249_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258249">whoops, sorry, it should be (following the command syntax styling I used in the tutorial):<br /><tt class="bbc_tt">~getaccess (client | tester | moder | admin) <em>password</em></tt><br /><br />Just like in FOnline SDK.<br />So for the highest access level (testers and moders can&#039;t use all commands) it would be: ~gettaccess admin yourpasswordhere</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258249">
+								&#171; <em>Last Edit: July 03, 2013, 12:37:30 pm by b__B</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258249_signature">Everything is clear and well written.</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258250"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=2467" title="View the profile of Spiritwind">Spiritwind</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258250_extra_info">
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=2467">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9231;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+										<li><a href="http://imagicraft.net" title="Imagicraft Gaming Community (President)" target="_blank" class="new_win"><img src="https://fodev.net/forum/Themes/blackened/images/www_sm.gif" alt="Imagicraft Gaming Community (President)" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258250">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258250.html#msg258250" rel="nofollow">Re: [FOnline: 2238] GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #10 on:</strong> July 03, 2013, 06:13:14 am &#187;</div>
+									<div id="msg_258250_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258250"><div class="quoteheader"><div class="topslice_quote"><a href="https://fodev.net/forum/index.php/topic,29382.msg258249.html#msg258249">Quote from: b__B on July 03, 2013, 06:08:46 am</a></div></div><blockquote class="bbc_standard_quote">whoops, sorry, it should be (following the command syntax styling I used in the tutorial):<br /><tt class="bbc_tt">~getaccess (client | tester | moder | admin) <em>password</em></tt><br /><br />Just like in FOnline SDK.<br />So for the highest access level (testers and moders can&#039;t use all commands) it would be: ~gettaccess admin yourpasswordhere<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Awesome, it worked <img src="https://fodev.net/forum/Smileys/classic/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" />.&nbsp; Everything is good now <img src="https://fodev.net/forum/Smileys/classic/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" />.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258250">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258252"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=6" title="View the profile of Wipe">Wipe</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258252_extra_info">
+								<li class="membergroup">Rotator</li>
+								<li class="title">Random is god</li>
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=6">
+										<img class="avatar" src="https://rotators.fodev.net/wipe/avatar.png" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258252">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258252.html#msg258252" rel="nofollow">Re: [FOnline: 2238] GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #11 on:</strong> July 03, 2013, 08:02:36 am &#187;</div>
+									<div id="msg_258252_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258252"><div class="quoteheader"><div class="topslice_quote"><a href="https://fodev.net/forum/index.php/topic,29382.msg258184.html#msg258184">Quote from: Wipe on July 01, 2013, 03:10:31 pm</a></div></div><blockquote class="bbc_standard_quote">To display GMT menu, use CTRL+Click.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Lazy dev forgot to add it, so i did <img src="https://fodev.net/forum/Smileys/classic/cry.gif" alt="&#58;&#039;&#40;" title="Cry" class="smiley" /></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258252">
+								&#171; <em>Last Edit: July 03, 2013, 08:19:37 am by Wipe</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258252_signature"><div style="text-align: right;"><em>Games are meant to be created, not played...</em></div></div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258253"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=19092" title="View the profile of fonliner">fonliner</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258253_extra_info">
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258253">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258253.html#msg258253" rel="nofollow">Re: [FOnline: 2238] GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #12 on:</strong> July 03, 2013, 08:33:20 am &#187;</div>
+									<div id="msg_258253_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258253">I have a problem with getacess admin commands, it is stupid but I do not sure if I make it properly.<br /><br />GetAccess.cfg (it is the same folder where are FOnlineServer and FOnlineServer.cfg).<br /><br />GetAccess.cfg:<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">[Admin1]<br />Access=admin<br />Password=123<br /></code><br />FOnlineServer.cfg:<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code"># Keys for accesses<br /># Aviable four access mode: client (default on login), tester, moder, admin<br />Access_client=123<br />Access_tester=123<br />Access_moder=123<br />Access_admin=123<br />AccessNames_admin=Admin1<br /></code><br />In game command ~getaccess admin 123 and &quot;access denied&quot;.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258253">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258254"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=28" title="View the profile of JovankaB">JovankaB</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258254_extra_info">
+								<li class="membergroup">Rotator</li>
+								<li class="title">JovankaB</li>
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=28">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9320;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="profile">
+									<ul>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258254">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258254.html#msg258254" rel="nofollow">Re: [2238] FOnline: 2238 GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #13 on:</strong> July 03, 2013, 08:39:28 am &#187;</div>
+									<div id="msg_258254_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258254">No, GetAccess.cfg should be created in <strong>Server/config/</strong> subfolder, here:<br /><br /><a href="https://github.com/rotators/fo2238/tree/master/Server/config" class="bbc_link" target="_blank">https://github.com/rotators/fo2238/tree/master/Server/config</a></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258254">
+								&#171; <em>Last Edit: July 03, 2013, 12:37:37 pm by b__B</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258254_signature">Everything is clear and well written.</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258261"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="https://fodev.net/forum/Themes/blackened/images/useroff.gif" alt="Offline" />
+								<a href="https://fodev.net/forum/index.php?action=profile;u=3338" title="View the profile of raynor009">raynor009</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258261_extra_info">
+								<li class="avatar">
+									<a href="https://fodev.net/forum/index.php?action=profile;u=3338">
+										<img class="avatar" src="https://fodev.net/forum/index.php?action=dlattach;attach=9284;type=avatar" alt="" />
+									</a>
+								</li>
+								<li class="blurb">The Bad</li>
+								<li class="profile">
+									<ul>
+										<li><a href="http://dayzromania.eu/raynor009_blog/blog1.php" title="" target="_blank" class="new_win"><img src="https://fodev.net/forum/Themes/blackened/images/www_sm.gif" alt="" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="https://fodev.net/forum/Themes/blackened/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258261">
+										<a href="https://fodev.net/forum/index.php/topic,29382.msg258261.html#msg258261" rel="nofollow">Re: [FOnline: 2238] GM Abuse Tutorial</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #14 on:</strong> July 03, 2013, 11:40:48 am &#187;</div>
+									<div id="msg_258261_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258261">Found a bug&nbsp; <img src="https://fodev.net/forum/Smileys/classic/grin.gif" alt=";D" title="Grin" class="smiley" />.. if DisplayTCZone is set to 2 the admin osd will not work.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258261">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="https://fodev.net/forum/Themes/blackened/images/ip.gif" alt="" />
+								Logged
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				</form>
+			</div>
+			<a id="lastPost"></a>
+			<div class="pagesection">
+				
+		<div class="buttonlist floatright">
+			<ul>
+				<li><a class="button_strip_print" href="https://fodev.net/forum/index.php?action=printpage;topic=29382.0" rel="new_win nofollow"><span class="last">Print</span></a></li>
+			</ul>
+		</div>
+				<div class="pagelinks floatleft">Pages: [<strong>1</strong>] <a class="navPages" href="https://fodev.net/forum/index.php/topic,29382.15.html">2</a> <a class="navPages" href="https://fodev.net/forum/index.php/topic,29382.30.html">3</a> <a class="navPages" href="https://fodev.net/forum/index.php/topic,29382.45.html">4</a> </div>
+				<div class="nextlinks_bottom"><a href="https://fodev.net/forum/index.php/topic,29382.0/prev_next,prev.html#new">&laquo; previous</a> <a href="https://fodev.net/forum/index.php/topic,29382.0/prev_next,next.html#new">next &raquo;</a></div>
+			</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="https://fodev.net/forum/index.php"><span>fodev.net</span></a> &#187;
+			</li>
+			<li>
+				<a href="https://fodev.net/forum/index.php#c9"><span>FOnline Development</span></a> &#187;
+			</li>
+			<li>
+				<a href="https://fodev.net/forum/index.php/board,50.0.html"><span>Questions and Answers</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="https://fodev.net/forum/index.php/topic,29382.0.html"><span>[2238] FOnline: 2238 GM Abuse Tutorial</span></a>
+			</li>
+		</ul>
+	</div>
+			<div id="moderationbuttons"></div>
+			<div class="plainbox" id="display_jump_to">&nbsp;</div>
+		<br class="clear" />
+				<script type="text/javascript" src="https://fodev.net/forum/Themes/default/scripts/topic.js"></script>
+				<script type="text/javascript"><!-- // --><![CDATA[
+					if ('XMLHttpRequest' in window)
+					{
+						var oQuickModify = new QuickModify({
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iTopicId: 29382,
+							sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b4081be903cb" value="09604c5ea323e8558d7c635ef85f3f2e" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="29382" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="Save" tabindex="2" onclick="return oQuickModify.modifySave(\'09604c5ea323e8558d7c635ef85f3f2e\', \'b4081be903cb\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="Cancel" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr'+'ef="https://fodev.net/forum/index.php'+'?topic=29382.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: 'Topic: %subject% &nbsp;(Read 36404 times)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">Jump to:<" + "/label> %dropdown_list%",
+							iCurBoardId: 50,
+							iCurBoardChildLevel: 0,
+							sCurBoardName: "Questions and Answers",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "go"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 50,
+							iTopicId: 29382,
+							sSessionId: "09604c5ea323e8558d7c635ef85f3f2e",
+							sSessionVar: "b4081be903cb",
+							sLabelIconList: "Message Icon",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+			<script type="text/javascript"><!-- // --><![CDATA[
+				var verificationpostHandle = new smfCaptcha("https://fodev.net/forum/index.php?action=verificationcode;vid=post;rand=173bd1f853007068121ad674a3e63c7c", "post", 1);
+			// ]]></script>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+	   <div class="wrapper">
+		<ul class="reset">
+			<li class="copyright"><a href="http://www.simplemachines.org">Simple Machines</a> &bull; Blackened by <a href="http://idesign360.com" target="_blank">idesign360</a> &bull; <a id="button_xhtml" href="http://validator.w3.org/check?uri=referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a> &bull;
+			
+                        <a id="button_rss" href="https://fodev.net/forum/index.php?action=.xml;type=rss" class="new_win"><span>RSS</span></a> &bull; 
+			<a id="button_wap2" href="https://fodev.net/forum/index.php?wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+		<p class="smalltext">Page created in 0.093 seconds with 17 queries.</p>
+            </div>
+	</div>
+</body></html>
