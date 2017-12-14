@@ -15,6 +15,7 @@ _DEV TEAM:_ **Ravenis**, _Vice Dice, Striberium, and AnarchCassius_
 ## Disclaimer
 
 **Please, DO NOT MODIFY OR CLAIM ANY OF THESE WORKS AS YOUR OWN!!**
+
 — Unless, you are listed as a member of the dev team below provided communities.
 
 **IF you are a member of a dev team of the provided, or un-listed communities; and wish to have certain works updated or removed, please contact me at** [sdpayne113@gmail.com](sdpayne113@gmail.com) **!**
