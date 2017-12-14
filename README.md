@@ -24,7 +24,9 @@ _CLIENT + MAPPER, SERVER + RELATED TOOLS, DOCUMENTATION_
 
 _rotator's fosdk, rotator's tools, witchlord - issue checker utility, and Fallout Online Updater._
 
-## References
+## Important References
+
+[rotator's sdk tools](https://github.com/rotators/tools)
 
 [rotator's improved fosdk](https://github.com/rotators/fosdk)
 
