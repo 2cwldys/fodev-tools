@@ -27,8 +27,11 @@ _rotator's fosdk, rotator's tools, witchlord - issue checker utility, and Fallou
 ## References
 
 [https://github.com/rotators/fosdk](https://github.com/rotators/fosdk)
+
 [https://github.com/rotators/WitchLord](https://github.com/rotators/WitchLord)
+
 [https://github.com/wipe2238/FOUpdaterEx](https://github.com/wipe2238/FOUpdaterEx)
+
 [FOnline: 2238 Source Release](https://fodev.net/forum/index.php?topic=29387.0)
 
 ## Disclaimer
