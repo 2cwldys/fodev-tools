@@ -44,7 +44,7 @@ _server files, mapper, tools, and full client._
 
 [FOnline: Reloaded S2 Source](https://forum.fonline-reloaded.net/index.php?topic=9569.0)
 
-## Disclaimer
+## Non-Source Disclaimer
 
 **Please, DO NOT MODIFY OR CLAIM ANY OF THESE WORKS AS YOUR OWN!!**
 
