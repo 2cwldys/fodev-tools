@@ -24,7 +24,7 @@ _client + mapper, server + related tools, documentation_
 
 _rotator's fosdk, rotator's tools, witchlord - issue checker utility, and Fallout Online Updater._
 
-**— Fallout Online Reloaded Season 1 + Season 2 Source**
+**— Fallout Online Reloaded Session 1 + Session 2 Source**
 
 _server files, mapper, tools, and full client._
 
