@@ -24,6 +24,10 @@ _CLIENT + MAPPER, SERVER + RELATED TOOLS, DOCUMENTATION_
 
 _rotator's fosdk, rotator's tools, witchlord - issue checker utility, and Fallout Online Updater._
 
+**— Fallout Online Reloaded Season 1 + Season 2 Source**
+
+_server files, mapper, tools, and full client._
+
 ## Important References
 
 [rotator's sdk tools](https://github.com/rotators/tools)
@@ -35,6 +39,8 @@ _rotator's fosdk, rotator's tools, witchlord - issue checker utility, and Fallou
 [rotator's Fallout Online Updater](https://github.com/wipe2238/FOUpdaterEx)
 
 [FOnline: 2238 Source Release](https://fodev.net/forum/index.php?topic=29387.0)
+
+[FOnline: Reloaded S2 Source](https://forum.fonline-reloaded.net/index.php?topic=9569.0)
 
 ## Disclaimer
 
