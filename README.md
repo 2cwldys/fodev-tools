@@ -38,12 +38,6 @@ _server files, mapper, tools, and full client._
 
 [rotator's Fallout Online Updater](https://github.com/wipe2238/FOUpdaterEx)
 
-[FOnline: 2238 Source Release](https://fodev.net/forum/index.php?topic=29387.0)
-
-[FOnline: Reloaded S1 Source](https://forum.fonline-reloaded.net/index.php?topic=7505.0)
-
-[FOnline: Reloaded S2 Source](https://forum.fonline-reloaded.net/index.php?topic=9569.0)
-
 ## Non-Source Disclaimer
 
 **Please, DO NOT MODIFY OR CLAIM ANY OF THESE WORKS AS YOUR OWN!!**
